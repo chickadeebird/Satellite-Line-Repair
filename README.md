@@ -25,15 +25,15 @@ The script works on the satellite line problem below.
 
 ## Images
 
-This is a sample pair of images. Thank you to Geoff on the Pixinsight forums for permitting me to use his image as a sample.
+This is a sample pair of images taken of the Leo Triplet, 5 minutes, Luminance.
 
-<img src="./figs/HalosRepaired.png" text='Repaired halos - left original, right repaired' align=left />
+<img src="./figs/LinesRepaired.png" text='Repaired satellite lines (2 of them) - left original, right repaired' align=left />
 
 ## Script
 
 This is the script interface.
 
-<img src="./figs/HaloRepairScript.png" text='Halo repair script' align=left />
+<img src="./figs/LineRepairScript.png" text='Line repair script' align=left />
 
 ## Manage repository location
 
