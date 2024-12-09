@@ -5,7 +5,7 @@ This is a Pixinsight script for repairing satellite lines through light frames.
 This will work only on mono images at present. RGB will be added as an update in the future.
 
 The script will display any available image window in its image window frame.
-The user can set the range threshold slider (default 25) and the detection threshold slider (default 50) and then selecte the detect button at the bottom of the panel.
+The user can set the range threshold slider (default 25) and the detection threshold slider (default 50) and then select the detect button at the bottom of the panel.
 It may take a while depending on the computer hardware and the size of the image, but satellite lines will be detected and displayed in red or green in the
 script image window.
 
