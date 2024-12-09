@@ -15,12 +15,13 @@ The detector threshold sets the threshold of the Hough Line Peak algorithm. Lowe
 
 Once lines are detected, they should be displayed on the view panel in red or green and can be toggled on and off with a mouse click in the script image window. If the detections are imperfect, changing the thresholding parameters and rerunning the script should display freshly detected lines, discarding the previous detected lines.
 
-After the detected lines are satisfactory, the Repair button will apply a 
+After the detected lines are satisfactory, the Repair button will apply a repair mask to the image and replace the lines with a local median value.
 
+I should probably say that this script should not replace good acquisition practices of acquiring many images with appropriately-set Windorized sigma values, but some of us live in cloud city and only see clear skies once or twice a season (exaggerating of course).
 
 ## Uses
 
-The script works on the star halo problem below. It also seems to work on repairing orphaned dust donuts from Ritchey-Chretien flats and images.
+The script works on the satellite line problem below.
 
 ## Images
 
