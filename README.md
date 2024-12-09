@@ -19,7 +19,7 @@ After the detected lines are satisfactory, the "Repair" button will apply a repa
 
 The undo button should undo the changes both to the script image window and the image displayed in the main Pixinsight window.
 
-I should probably say that "this script should not replace good acquisition practices of acquiring many images with appropriately-set Windorized sigma values...", but some of us live in cloud city and only see clear skies once or twice a season (exaggerating of course), so this is meant to optimize an unlucky run of fewer images than desired.
+I should probably say that "this script should not replace good acquisition practices of acquiring many images with appropriately-set Windorized sigma values...", but some of us live in cloud city and only see clear skies once or twice a season (exaggerating of course), so this is meant to optimize an unlucky run of fewer images than desired that can only be suboptimally processed, or whatever you feel you need to do.
 
 ## Uses
 
