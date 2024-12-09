@@ -27,7 +27,7 @@ The script works on the satellite line problem below.
 
 ## Images
 
-This is a sample pair of images taken of the Leo Triplet, 5 minutes, Luminance.
+This is a sample pair of an image taken of the Leo Triplet, 5 minutes, Luminance (left), and its repaired image (right).
 
 <img src="./figs/LinesRepaired.png" text='Repaired satellite lines (2 of them) - left original, right repaired' align=left />
 
