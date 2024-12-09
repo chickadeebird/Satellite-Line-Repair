@@ -13,16 +13,10 @@ The range threshold sets the threshold of the mask range. Lower numbers means mo
 
 The detector threshold sets the threshold of the Hough Line Peak algorithm. Lower numbers means more lines detected, nbut a greater chance of detecting non-satellite lines. Set to lower if there are multiple lines of varying intensities, otherwise 50 should work.
 
+Once lines are detected, they should be displayed on the view panel in red or green and can be toggled on and off with a mouse click in the script image window. If the detections are imperfect, changing the thresholding parameters and rerunning the script should display freshly detected lines, discarding the previous detected lines.
 
+After the detected lines are satisfactory, the Repair button will apply a 
 
-If the selection is imperfect, either Ctrl+left mouse button will modify the selection, or start over by shift+left mouse button as above.
-
-Once the selection is made, the execute button will modify both the image window selected in the main Pixinsight window as well as that image displayed in the image preview
-in the script. The Undo button undoes the changes in both the preview window and the image window open in the main Pixinsight window.
-
-This script works on both RGB and mono images.
-
-The Residual star slider is the size of the star that remains after the halo has been repaired. If it is set to 0, no residual star is created.
 
 ## Uses
 
