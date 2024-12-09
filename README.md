@@ -39,6 +39,6 @@ This is the script interface.
 
 In order to automatically install and subsequently refresh script updates in Pixinsight, add the following URL to Resources > Updates > Manage repositories
 
-https://raw.githubusercontent.com/chickadeebird/Star-Halo-Pixinsight-updates/main/
+https://raw.githubusercontent.com/chickadeebird/Satellite-Line-Repair/main/
 
-After this has been added to the repositories, Check for updates should place the new JAHRsHaloRepair script in Scripts > ChickadeeScripts
+After this has been added to the repositories, Check for updates should place the new LineRepair script in Scripts > ChickadeeScripts
