@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xri version="1.0">
+   <description>
+      <p>
+		First release of Satellite Line Repair Script (JAHRS) from chickadeebird.
+      </p>
+      <p>
+      The scripts have been written by Chick Dee (alias chickadeebird).
+      Feedback can be provided on the PixInsight forums.
+      </p>
+   </description>
+   <platform os="all" arch="noarch" version="1.8.9:2.0.0">
+      <package fileName="LineRepairv1.0.0.beta.zip" sha1="1728cd4c1756111eeb07569869e1f9c0d35ae758" type="script" releaseDate="20241209">
+         <title>
+            Script for LineRepair - Satellite Line Repair Script.
+         </title>
+         <description>
+            <p>
+               Script for repairing satellite lines. <br/>
+            </p>
+         </description>
+      </package>
+   </platform>
+</xri>
