@@ -10,7 +10,7 @@
       </p>
    </description>
    <platform os="all" arch="noarch" version="1.8.9:2.0.0">
-      <package fileName="LineRepairv1.0.1.beta.zip" sha1="0f1641b2ba7f17c95d9fd52effceec9933e50f59" type="script" releaseDate="20241210">
+      <package fileName="LineRepairv1.0.1.beta.zip" sha1="608cea8344b6dc76354dfcfae8b9e229caf9819b" type="script" releaseDate="20241210">
          <title>
             Script for LineRepair - Satellite Line Repair Script.
          </title>
