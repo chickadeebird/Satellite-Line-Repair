@@ -1,10 +1,10 @@
-# Satellite-Line-Repair
+# Satellite-Line-Repair and Batch-Satellite-Line-Repair
 
-This is a Pixinsight script for repairing satellite lines through light frames.
+These are Pixinsight scripts for repairing satellite lines through light frames.
 
-This will work only on mono images at present. RGB will be added as an update in the future.
+They will work on both mono and RGB images at present.
 
-The script will display any available image window in its image window frame.
+The line repair script will display any available image window in its image window frame.
 The user can set the range threshold slider (default 25) and the detection threshold slider (default 50) and then select the "Detect" button at the bottom of the panel.
 It may take a while depending on the computer hardware and the size of the image, but satellite lines will be detected and displayed in red or green in the
 script image window. Computation speed optimizations are coming in the future.
@@ -19,7 +19,9 @@ After the detected lines are satisfactory, the "Repair" button will apply a repa
 
 The undo button should undo the changes both to the script image window and the image displayed in the main Pixinsight window.
 
-I should probably say that "this script should not replace good acquisition practices of acquiring many images with appropriately-set Windorized sigma values...", but some of us live in cloud city and only see clear skies once or twice a season (exaggerating of course), so this is meant to optimize an unlucky run of fewer images than desired that can only be suboptimally processed, or whatever you feel you need to do.
+The batch script will permit the user to select a list of files and apply the settings to each of the selected files. Ideally, one would preselect the files via the blink process first. Subsequent iterations of this script will possible incorporate the blink function into the batch script itself.
+
+I should probably state the caveat that "this script should not replace good acquisition practices of acquiring many images with appropriately-set Windorized sigma values...", but some of us live in cloud city and only see clear skies once or twice a season (exaggerating of course), so this is meant to optimize an unlucky run of fewer images than desired that can only be suboptimally processed, or whatever you feel you need to do.
 
 ## Uses
 
@@ -33,7 +35,7 @@ This is a sample pair of an image taken of the Leo Triplet, 5 minutes, Luminance
 
 ## Script
 
-This is the script interface.
+This is the script interface for the line repair script.
 
 <img src="./figs/LineRepairScript.png" text='Line repair script' align=left />
 
@@ -43,4 +45,4 @@ In order to automatically install and subsequently refresh script updates in Pix
 
 https://raw.githubusercontent.com/chickadeebird/Satellite-Line-Repair/main/
 
-After this has been added to the repositories, Check for updates should place the new LineRepair script in Scripts > ChickadeeScripts
+After this has been added to the repositories, Check for updates should place the new LineRepair and BatchLineRepair scripts in Scripts > ChickadeeScripts
