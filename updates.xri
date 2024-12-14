@@ -2,7 +2,7 @@
 <xri version="1.0">
    <description>
       <p>
-		First release of Satellite Line Repair Script from chickadeebird.
+		Beta releases of Satellite Line Repair Script and Batch Script from chickadeebird.
       </p>
       <p>
       The scripts have been written by Chick Dee (alias chickadeebird).
@@ -17,6 +17,18 @@
          <description>
             <p>
                Script for repairing satellite lines. <br/>
+            </p>
+         </description>
+      </package>
+   </platform>
+   <platform os="all" arch="noarch" version="1.8.9:2.0.0">
+      <package fileName="BatchLineRepairv1.0.0.beta.zip" sha1="4dd6e657c7e159ef91fb0b0c08a893cefda6b5ba" type="script" releaseDate="20241214">
+         <title>
+            Script for LineRepair - Satellite Line Repair Script.
+         </title>
+         <description>
+            <p>
+               Script for batch repairing satellite lines. <br/>
             </p>
          </description>
       </package>
